@@ -1,0 +1,35 @@
+.MainPanelContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ApiResult {
+    background-color: #282c34;
+    user-select: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2em;
+    color: #daa520;
+    white-space: "break-spaces";
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 1250px) {
+    .ApiResult {    
+        font-size: 0.4em;
+    }
+}
+  

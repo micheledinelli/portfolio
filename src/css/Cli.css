@@ -1,0 +1,27 @@
+.Cli {
+    height: 30vh;
+    width: 40vw;
+
+    background-color: #000;
+    border: 3px solid #000;
+    border-radius: 5px;
+    
+    resize: none;
+
+    color: #00ff00;
+
+    padding: 8px;
+    
+    font-family: courier new;
+    font-size: 0.7em;
+}
+
+@keyframes blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #fff;
+    }
+}
